@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Irish+Grover&family=Itim&family=Permanent+Marker&family=Rancho&display=swap');
+body {
+    background-color: #03090d;
+    color: #a62d37;
+    font-family: "Fondamento" , sans-serif;
+}
+
+.main-body {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.top-title {
+    font-size: 60px;
+    color: #02630a;
+    outline-color: #bfba69;
+    text-shadow: 2px 1px 1px #bfba69;
+	-webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #bfba69;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.bottom-title {
+    font-family: "Irish Grover" , sans-serif;
+    font-size: 90px;
+    outline-color: #bfba69;
+    text-shadow: 2px 1px 1px #bfba69;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #bfba69;
+    margin-bottom: 100px;
+    margin-top: 15px;
+}
+
+.btn-play {
+    font-size: 1.8rem;
+    font-family: "Fondamento";
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #bfba69;
+    color: #02630a;
+    background-color: #bfba69;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.home-image {
+    position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  bottom: 0px;
+}
