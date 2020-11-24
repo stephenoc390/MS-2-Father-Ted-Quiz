@@ -56,14 +56,26 @@ body {
      display: flex;
 }
 
-.card1 {
-    text-align: center;
-}
-
-.container-cards {
+.cards {
     display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: auto;
 	padding: 60px 30px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.modal-overlay
+
+
+{
+
+
+      background: #7bea7b91;
+    text-align: center;
+    color: grey;
+   
+
 }

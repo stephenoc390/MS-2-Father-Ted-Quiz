@@ -8,25 +8,99 @@
     <title>Father Ted Quiz</title>
 </head>
 <body>
-    <div class="main-body">
+    <div class="main-body container">
         <p class="top-title">Choose a level</p>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 col-lg-4" data-toggle="modal" data-target="#easyLevelModal">
+                    <img class="w-100" src="assets/images/dougal-level.png" alt="Dougal - Easy Level" />
+                    <p>Easy</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-toggle="modal" data-target="#mediumLevelModal">
+                    <img class="w-100" src="assets/images/ted-level.png" alt="Ted - Medium Level" />
+                    <p>Medium</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-toggle="modal" data-target="#hardLevelModal">
+                    <img class="w-100" src="assets/images/jack-level.png" alt="Jack - Hard Level" />
+                    <p>Hard</p>   
+                </div>
+            </div>
+        </div>
     </div>
-    
 
-    <div class="container-cards">
-    <div class="card-group">
-  <div class="card1">
-    <img class="card-img-top" src="assets/images/dougal-level.png" alt="Card image cap">
-    <p>EASY</p>
-  </div>
-  <div class="card2">
-    <img class="card-img-top" src="assets/images/ted-level.png" alt="Card image cap">
-  </div>
-  <div class="card3">
-    <img class="card-img-top" src="assets/images/jack-level.png" alt="Card image cap">
-  </div>
+    <div class="modal fade modal-overlay dark" id="easyLevelModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="easyTitle">Easy - Fr. Dougal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://i.gifer.com/AdAo.gif"/>
+        <p>Think you have more brains than the hamster in the wheel running Dougals?</p>
+        <p>5 multiple choice questions</p>
+        <p>Try to answer them all correctly</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+        <button type="button" class="btn btn-primary">Start Quiz</button>
+      </div>
     </div>
-    </div>
+  </div>
+</div>
 
+<div class="modal fade modal-overlay dark" id="mediumLevelModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="examModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mediumTitle">Medium - Fr. Ted</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://i.gifer.com/AdAo.gif"/>
+        <p>Think you have more brains than the hamster in the wheel running Dougals?</p>
+        <p>5 multiple choice questions</p>
+        <p>Try to answer them all correctly</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+        <button type="button" class="btn btn-primary">Start Quiz</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-overlay dark" id="hardLevelModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="examModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="hardTitle">Hard - Fr. Jack</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://i.gifer.com/AdAo.gif"/>
+        <p>Think you have more brains than the hamster in the wheel running Dougals?</p>
+        <p>5 multiple choice questions</p>
+        <p>Try to answer them all correctly</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+        <button type="button" class="btn btn-primary">Start Quiz</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="assets/javascript/quiz.js"></script>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
