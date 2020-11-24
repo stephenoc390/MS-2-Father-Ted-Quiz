@@ -67,15 +67,17 @@ body {
     height: auto;
 }
 
-.modal-overlay
-
-
-{
-
-
-      background: #7bea7b91;
+.modal-overlay {
+    background: #7bea7b91;
     text-align: center;
     color: grey;
-   
+}
 
+.level-titles {
+    font-family: "Irish Grover" , sans-serif;
+    font-size: 40px;
+    outline-color: #bfba69;
+    text-shadow: 2px 1px 1px #bfba69;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #bfba69;
 }
