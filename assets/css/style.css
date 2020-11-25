@@ -112,3 +112,7 @@ body {
     margin-top: 60px;
     margin-bottom: 20px;
 }
+
+.level-click {
+    cursor: pointer;
+}
