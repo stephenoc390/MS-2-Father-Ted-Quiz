@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Irish+Grover&family=Itim&family=Permanent+Marker&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;1,600&family=Fondamento:ital@0;1&family=Irish+Grover&display=swap');
+
 body {
     background-color: #03090d;
     color: #a62d37;
@@ -70,7 +71,7 @@ body {
 .modal-overlay {
     background: #7bea7b91;
     text-align: center;
-    color: grey;
+    color: black;
 }
 
 .level-titles {
@@ -80,4 +81,34 @@ body {
     text-shadow: 2px 1px 1px #bfba69;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #bfba69;
+}
+
+.img-responsive {
+    max-height:250px;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Fondamento" , sans-serif;
+    color:#02630a;
+    outline-color: #bfba69;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3a3a3a;
+}
+
+.modal-body {
+    font-size: 20px;
+    font-family: "Crimson Text" , sans-serif;
+}
+
+.quiz-title {
+    font-size: 40px;
+    color: #02630a;
+    outline-color: #bfba69;
+    text-shadow: 2px 1px 1px #bfba69;
+	-webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #bfba69;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }

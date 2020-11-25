@@ -9,20 +9,20 @@
 </head>
 <body>
     <div class="main-body container">
-        <p class="top-title">Choose a level</p>
+        <p class="quiz-title">Choose a level by selecting one of the priests</p>
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-4 col-lg-4" data-toggle="modal" data-target="#easyLevelModal">
-                    <img class="w-100" src="assets/images/dougal-level.png" alt="Dougal - Easy Level" />
-                    <p class="level-titles">Easy</p>
+                    <img class="w-100" src="assets/images/dougal-level.png" alt="Dougal - Easy Level" onclick="playAudio('assets/sounds/dougal-level.mp3')" />
+                    <p class="level-titles">Dougal</p>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4" data-toggle="modal" data-target="#mediumLevelModal">
-                    <img class="w-100" src="assets/images/ted-level.png" alt="Ted - Medium Level" />
-                    <p class="level-titles">Medium</p>
+                    <img class="w-100" src="assets/images/ted-level.png" alt="Ted - Medium Level" onclick="playAudio('assets/sounds/ted-level.mp3')"/>
+                    <p class="level-titles">Ted</p>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4" data-toggle="modal" data-target="#hardLevelModal">
-                    <img class="w-100" src="assets/images/jack-level.png" alt="Jack - Hard Level" />
-                    <p class="level-titles">Hard</p>   
+                    <img class="w-100" src="assets/images/jack-level.png" alt="Jack - Hard Level" onclick="playAudio('assets/sounds/jack-level.mp3')" />
+                    <p class="level-titles">Jack</p>   
                 </div>
             </div>
         </div>
@@ -32,20 +32,21 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="easyTitle">Easy - Fr. Dougal</h5>
+        <p class="modal-title" id="easyTitle">"Easy"</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="https://i.gifer.com/AdAo.gif"/>
-        <p>Think you have more brains than the hamster in the wheel running Dougals?</p>
-        <p>5 multiple choice questions</p>
-        <p>Try to answer them all correctly</p>
+        <img src="https://media.giphy.com/media/StKcfTc8pKg0w/giphy.gif" class="img-responsive"/>
+        <hr>
+        <p>Turn your dreams into reality...</p>
+        <p>Answer all questions correctly to win<br> the "Golden Cleric Award"</p>
+        <p>Press Start to beging the quiz</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-        <button type="button" class="btn btn-primary">Start Quiz</button>
+        <button type="button" class="btn btn-primary">Start</button>
       </div>
     </div>
   </div>
@@ -55,20 +56,21 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="mediumTitle">Medium - Fr. Ted</h5>
+        <p class="modal-title" id="mediumTitle">"Medium"</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="https://media.giphy.com/media/tyspit3ZZThcs/source.gif" id="medium-level-gif"/>
-        <p>Think you have more brains than the hamster in the wheel running Dougals?</p>
-        <p>5 multiple choice questions</p>
-        <p>Try to answer them all correctly</p>
+        <img src="https://media.giphy.com/media/tyspit3ZZThcs/source.gif" class="img-responsive"/>
+        <hr>
+        <p>Will the points be resting in your score?</p>
+        <p>Answer all questions correctly to win<br>the "Golden Cleric Award"</p>
+        <p>Press Start to beging the quiz</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-        <button type="button" class="btn btn-primary">Start Quiz</button>
+        <button type="button" class="btn btn-primary">Start</button>
       </div>
     </div>
   </div>
@@ -78,20 +80,21 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="hardTitle">Hard - Fr. Jack</h5>
+        <p class="modal-title" id="hardTitle">"Hard"</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="https://media1.tenor.com/images/cbeaca46e415f219635b5716974b941b/tenor.gif?itemid=15581032"/>
-        <p>Think you have more brains than the hamster in the wheel running Dougals?</p>
-        <p>5 multiple choice questions</p>
-        <p>Try to answer them all correctly</p>
+        <img src="https://media1.tenor.com/images/cbeaca46e415f219635b5716974b941b/tenor.gif?itemid=15581032" class="img-responsive"/>
+        <hr>
+        <p>Will you be a happy camper?</p>
+        <p>Answer all questions correctly to win<br>the "Golden Cleric Award"</p>
+        <p>Press Start to beging the quiz</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-        <button type="button" class="btn btn-primary">Start Quiz</button>
+        <button type="button" class="btn btn-primary">Start</button>
       </div>
     </div>
   </div>
