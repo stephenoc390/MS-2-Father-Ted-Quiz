@@ -11,6 +11,23 @@ body {
     padding-bottom: 50px;
 }
 
+.levels-container,
+.easy-container {
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.easy-container {
+    max-width: 90%;
+    width: 1280px;
+    max-height: 90%;
+    height: 100vh;
+    
+}
+
 .top-title {
     font-size: 60px;
     color: #02630a;
@@ -103,7 +120,7 @@ body {
 }
 
 .quiz-title {
-    font-size: 40px;
+    font-size: 20px;
     color: #02630a;
     outline-color: #bfba69;
     text-shadow: 2px 1px 1px #bfba69;
@@ -111,6 +128,12 @@ body {
     -webkit-text-stroke-color: #bfba69;
     margin-top: 60px;
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .quiz-title {
+    font-size:40px;
+    }
 }
 
 .level-click {
